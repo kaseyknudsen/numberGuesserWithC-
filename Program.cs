@@ -41,7 +41,7 @@ namespace NumberGuesser
                 //user guesses num
                 int guess = 0;
 
-                Console.WriteLine("{0}, Guess a number between 1 & 10");
+                Console.WriteLine("Guess a number between 1 & 10");
 
                 //use a loop to guess num until it's correct
                 while (guess != correctNumber)
@@ -77,7 +77,7 @@ namespace NumberGuesser
                 else if (answer == "N")
                 
                 {
-                    Console.WriteLine("Ok {0}, thanks for playing");
+                    Console.WriteLine("Ok, thanks for playing");
                     playingGame = false;
                 }
             }
@@ -107,6 +107,7 @@ namespace NumberGuesser
             string inputName = Console.ReadLine();
 
             Console.WriteLine("Hello {0}, let's play a game...", inputName);
+
         }
 
         //print color message
